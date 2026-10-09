@@ -1,0 +1,14 @@
+{
+  "name": "little-touch-order-bot",
+  "version": "1.0.0",
+  "description": "Receives order form submissions and forwards them to a Telegram chat via a bot.",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": { "start": "node index.js" },
+  "dependencies": {
+    "express": "^4.19.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "node-fetch": "^2.7.0"
+  }
+}
